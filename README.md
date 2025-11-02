@@ -9,4 +9,5 @@ An animated tech gadgets landing page built using **HTML, CSS, and JavaScript**.
 - Responsive design
 
 ### 🔗 Live Demo
-👉 [View on GitHub Pages](https://<vinod579>.github.io/ShopEase-Modern-E-Commerce-Website/)
+👉[View on GitHub Pages](https://<vinod579>.github.io/vinod-gadgets/)
+
