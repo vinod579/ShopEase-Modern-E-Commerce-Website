@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vinod Gadgets | Tech Store</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="logo">Vinod Gadgets</div>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#products">Products</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="cart-icon">
+      🛒 <span id="cart-count">0</span>
+    </div>
+  </header>
+
+  <section class="hero" id="home">
+    <div class="hero-content">
+      <h1>Explore the Future with <span>Vinod Gadgets</span></h1>
+      <p>Top-quality tech products, handpicked for innovation and performance.</p>
+      <button id="get-started">Get Started</button>
+    </div>
+  </section>
+
+  <section class="products" id="products">
+    <h2>Featured Products</h2>
+    <div class="product-grid">
+      <div class="product-card" data-name="Wireless Headphones" data-price="₹2,499">
+        <img src="images/bluetooth headset.png" alt="Wireless Headphones" />
+        <h3>Wireless Headphones</h3>
+        <p class="price">₹2,499</p>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+
+      <div class="product-card" data-name="Smart Watch" data-price="₹3,999">
+        <img src="images/smart watch.png" alt="Smart Watch" />
+        <h3>Smart Watch</h3>
+        <p class="price">₹3,999</p>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+
+      <div class="product-card" data-name="Bluetooth Speaker" data-price="₹1,799">
+        <img src="images/bluetooth speaker.png" alt="Bluetooth Speaker" />
+        <h3>Bluetooth Speaker</h3>
+        <p class="price">₹1,799</p>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+
+      <div class="product-card" data-name="Gaming Mouse" data-price="₹1,299">
+        <img src="images/gaming mouse.png" alt="Gaming Mouse" />
+        <h3>Gaming Mouse</h3>
+        <p class="price">₹1,299</p>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+
+      <div class="product-card" data-name="Phone Stand" data-price="₹499">
+        <img src="images/phone stand.png" alt="Phone Stand" />
+        <h3>Phone Stand</h3>
+        <p class="price">₹499</p>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+
+      <div class="product-card" data-name="VR Headset" data-price="₹4,499">
+        <img src="images/headset.png" alt="VR Headset" />
+        <h3>VR Headset</h3>
+        <p class="price">₹4,499</p>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+    </div>
+  </section>
+
+  <section class="about" id="about">
+    <h2>About Us</h2>
+    <p>At Vinod Gadgets, we blend innovation with style. Our mission is to bring you premium tech accessories that fit seamlessly into your modern lifestyle.</p>
+  </section>
+
+  <section class="contact" id="contact">
+    <h2>Contact Us</h2>
+    <p>Have any questions? Reach out to us anytime!</p>
+    <p><a href="mailto:vinodkalla777@gmail.com">vinodkalla777@gmail.com</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Vinod Gadgets. All Rights Reserved.</p>
+  </footer>
+
+  <div id="cart-popup">
+    <h3>Your Cart</h3>
+    <ul id="cart-items"></ul>
+    <p id="total">Total: ₹0</p>
+    <button id="close-cart">Close</button>
+  </div>
+
+  <button id="scrollTop">↑</button>
+  <button id="chatBtn">💬</button>
+  
+<div id="product-popup">
+  <div class="popup-content">
+    <img id="popup-img" src="" alt="">
+    <h3 id="popup-name"></h3>
+    <p id="popup-price"></p>
+    <p id="popup-desc"></p>
+    <div class="popup-buttons">
+      <button id="popup-add">Add to Cart</button>
+      <button id="popup-close">Close</button>
+    </div>
+  </div>
+</div>
+
+
+  <script src="script.js"></script>
+
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
