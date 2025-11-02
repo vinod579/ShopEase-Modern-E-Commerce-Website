@@ -6,7 +6,7 @@ Designed with a **neon green tech theme**, this project showcases your front-end
 ---
 
 ## 🌐 Live Demo
-🔗 **[View Website Here](https://vinodkalla.github.io/vinod-gadgets/)**
+🔗 **[View Website Here](https://vinod579.github.io/ShopEase-Modern-E-Commerce-Website/)**
 
 ---
 
@@ -36,9 +36,10 @@ To view or edit locally:
 
 ```bash
 # Clone the repo
-git clone https://github.com/vinodkalla/vinod-gadgets.git
+git clone https://github.com/vinod579/ShopEase-Modern-E-Commerce-Website/tree/main
 
 # Open the project folder
-cd vinod-gadgets
+cd ShopEase-Modern-E-Commerce-Website
+
 
 # Then open index.html in your browser
